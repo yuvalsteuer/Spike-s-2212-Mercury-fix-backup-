@@ -1,0 +1,23 @@
+{
+  "http" : {
+    "port": 8088
+  },
+
+  "data": {
+    "eventName": "2019isde2",
+    "forms": "forms",
+    "pitForm": "pit.json",
+    "tbaKey": "c7P4WNUrc8G6liDOXApuOqwWPZ74wBZWe6a3imohkbQnkNI6RU7VXYwCap9OgZyP"
+  },
+
+
+  "mongo" :{
+    "url": "mongodb://localhost:27017",
+    "db" : "mercury_reborn",
+    "collectionNames": {
+      "pit": "demo_pit",
+      "field": "demo_field",
+      "spectator": "demo_viewer"
+    }
+  }
+}
